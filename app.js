@@ -1,5 +1,5 @@
 // Configure l'URL et la clé publique Supabase ici. Ne mets JAMAIS la clé service_role.
-const CONFIG={url:"https://ylpyvuurujgkopoclaqx.supabase.co",anonKey:"sb_publishable_oFICs_KGLDnLI32yxQEZKw_jx8Im1AN"};
+const CONFIG={url:"https://ylpyvuuruigkopoclaqx.supabase.co",anonKey:"sb_publishable_oFICs_KGLDnLI32yxQEZKw_jx8Im1AN"};
 const ready=CONFIG.url.startsWith("https://")&&!CONFIG.url.includes("YOUR-PROJECT")&&CONFIG.anonKey.length>30&&!CONFIG.anonKey.includes("YOUR_SUPABASE");
 const $=id=>document.getElementById(id);let db=null,session=null,profile=null;
 $("year").textContent=new Date().getFullYear();
